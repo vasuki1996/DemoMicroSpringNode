@@ -51,8 +51,9 @@ export class TodoController {
             description: "Request Payload to create a item"
         }
     })
-    createItem: Function = (body: TODOItem) => {
-        const item = createItem(body);
+    createItem: Function = async (body: TODOItem) => {
+        const item = await createItem(body);
+        return {item}
     }
 
 }
