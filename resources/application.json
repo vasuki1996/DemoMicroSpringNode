@@ -6,6 +6,9 @@
         "cors": true,
         "port": 8081
     },
+    "logger": {
+        "enable_cloudwatch": true
+    },
     "database": {
         "default": true
     }

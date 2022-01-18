@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "microspringnode": "^0.0.7"
+    "microspringnode": "^0.0.7",
+    "sqlite3": "^5.0.2"
   }
 }
